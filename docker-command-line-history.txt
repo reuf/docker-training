@@ -1,0 +1,179 @@
+136  docker versionb
+137  docker version
+138  mkdir hello-docker
+139  cd hello-docker\
+140  node app.js
+141  docker build -t hello-docker .
+142  docker run hello-docker
+143  docker run ubuntu
+144  docker kill turningpoint
+145  docker kill turningpoint_nginx
+146  docker kill turningpoint_postgres
+147  docker start -i a1d8
+148  docker exec a1d8 bash
+149  docker exec -it a1d8 bash
+150  docker exec -it -u john a1d8 bash
+151  docker run -it ubuntu
+152  cd "React
+153  docker run -it react-app
+154  docker run -it alpine
+155  docker run -it react-app sh
+156  cd "react-app\
+157  docker run react-app npm start
+158  cd Desktop\react-app\
+159  docker history react-app
+160  docker image prune
+161  docker image rm hello-docker
+162  docker image rm affbac
+163  docker image rm 07f0
+164  docker image rm 77365
+165  docker image rm bef2
+166  docker build -t react-app:1 .
+167  docker image remove reac-app:1
+168  docker image remove react-app:1
+169  docker image tag react-app:latest react-app:1
+170  docker build -t react-app:2 .
+171  docker image tag cbfb react-app:latest
+172  docker image tag cbfb amoxibos/react-app
+173  docker login
+174  docker image tag cbfb amoxibos/react-app:2
+175  docker push amoxibos/react-app:2
+176  docker build -t react-app:3 .
+177  docker image tag react-app:3 amoxibos/react-app:3
+178  docker push amoxibos/react-app:3
+179  docker image save -o react-app.tar react-app:3
+180  docker image rm df0
+181  docker image load -i react-app.tar
+182  docker image tag react-app:3 react-app:latest
+183  docker image rm cbf 5eb
+184  docker image rm amoxibos/react-app
+185  docker image rm amoxibos/react-app:2
+186  docker image rm cbf
+187  docker image rm react-app:3
+188  docker stop a1d
+189  docker run react-app
+190  cd C:\Users\User\Desktop\react-app
+191  docker run -d react-app
+192  docker run -d --name blue-sky react-app
+193  docker logs dba
+194  docker logs --help
+195  docker logs -n 5 dba
+196  docker logs -n 5 -t dba
+197  docker run -d -p 3000:3000 --name c1 react-app
+198  docker exec c1 ls
+199  docker exec -it c1 sh
+200  docker stop c1
+201  docker start c1
+202  docker ps --help
+203  docker rm c1
+204  docker rm -f c1
+205  docker ps -a | grep c1
+206  docker container prune
+207  history
+208  docker exec -it blue-sky sh
+209  docker exec -it 45a sh
+210  docker volume
+211  docker volume create app-data
+212  docker volume inspect app-data
+213  docker run -d -p 4000:3000 -v app-data:/app/data react-app
+214  docker exec -it daef sh
+215  docker build -t reac-app .
+216  docker build -t react-app .
+217  docker exec -it 3df sh
+218  docker rm -f 3df
+219  docker run -d -p 5000:3000 -v app-data:/app/data react-app
+220  docker cp b319987809ff:/app/log.txt .
+221  echo hello > secret.txt
+222  docker cp secret.txt b319987809ff:/app
+223  docker exec -it b31 sh
+224  docker run -d -p 5001:3000 -v $(pwd):/app react-app
+225  wsl --install
+226  docker run -d -p 5001:3000 -v %cd%:/app react-app
+227  docker logs -f d58
+228  %cd%
+229  docker run -d -p 5002:3000 -v %cd%:/app react-app
+230  docker logs -f e4d
+231  docker rm e42 d58 b31
+232  docker rm -f e42 d58 b31
+233  docker purge
+234  docker prune
+235  docker --help
+236  docker rm -f e4d dae dba 45a
+237  docker-compose --version
+238  docker imae ls
+239  docker image ls
+240  docker image ls -q
+241  %docker image ls -q%
+242  docker image rm $(docker image ls -q)
+243  docker container -a -q | % { docker container rm $_ -f }
+244  docker containers
+245  docker container ls -q
+246  docker container ls -a -q
+247  for /F %i in ('docker images -a -q') do docker rmi -f %i
+248  ls | grep v
+249  clear
+250  cat docker-compose.yml
+251  mkdir awlaki
+252  cd aw
+253  cd awlaki\
+254  docker-compose
+255  docker-compose build --help
+256  docker rm e25 87a 1f7
+257  docker rm b92 516 a4c
+258  docker rm b9e
+259  docker ps -a
+260  docker image rm e25 87a 1f7
+261  docker-compose build
+262  docker images -a
+263  docker-compose build --no-cache
+264  docker-compose ps
+265  docker
+266  docker-compose up -d
+267  docker network ls
+268  docker exec -it bc0 sh
+269  docker exec -it -u root bc0 sh
+270  docker-compose logs
+271  docker-compose logs --help
+272  docker logs bc0
+273  docker logs bc0 -f
+274  npm run db:up
+275  docker volume ls
+276  docker volume rm vidly_vidly
+277  npm test
+278  docker-compose up
+279  docker-compose down
+280  if [[ ! -d "$HOME/bin" ]]; then mkdir -p "$HOME/bin"; fi && \ curl -L https://github.com/docker/machine/releases/download/v0.16.2/docker-machine-Windows-x86_64.exe > "$HOME/bin/docker-machine.exe" && \ chmod +x "$HOME/bin/docker-machine.exe"
+281  docker-machine --version
+282  docker-machine create `
+283  docker-machine create \
+284  docker-machine create --driver digitalocean --digitalocean-access-token 376848784499c4f6698056f28307a389f282a6388e9b17fd69581013be26e5a5 --engine-install-url "https://releases.rancher.com/install-docker/19.03.9.sh" name vidly
+285  docker-machine create --driver digitalocean --digitalocean-access-token 376848784499c4f6698056f28307a389f282a6388e9b17fd69581013be26e5a5 --engine-install-url "https://releases.rancher.com/install-docker/19.03.9.sh" name; vidly
+286  docker-machine create --driver digitalocean --digitalocean-access-token 376848784499c4f6698056f28307a389f282a6388e9b17fd69581013be26e5a5 --engine-install-url "https://releases.rancher.com/install-docker/19.03.9.sh" vidly
+287  docker-machine create --driver digitalocean --digitalocean-access-token 376848784499c4f6698056f28307a389f282a6388e9b17fd69581013be26e5a5 --digitalocean-image ubuntu-18-04-x64 --engine-install-url "https://releases.rancher.com/install-docker/19.03.9.sh" vidly
+288  docker-machine ssh vidly
+289  cd Desktop\vidly\
+290  ls
+291  code .
+292  ls -la
+293  cd frontend\
+294  npm install
+295  cd C:\Users\User\Desktop\vidly
+296  cd backend\
+297  npm i
+298  npm run build
+299  docker build -t vidly_web_opt -f Dockerfile.prod .
+300  cd ..
+301  docker-compose -f docker-compose.prod.yml build
+302  docker-machine env vidly
+303  @FOR /f "tokens=*" %i IN ('docker-machine env vidly') DO @%i
+304  docker images
+305  docker-compose -f docker-compose.prod.yml up -d
+306  docker logs be8cc2764d08
+307  docker-compose -f docker-compose.prod.yml up --build
+308  cd Desktop\
+309  cd vidly\
+310  CD ..
+311  docker-machine ls
+312  docker-compose -f docker-compose.prod.yml up -d --build
+313  docker ps
+314  history > docker-commands-history.txt

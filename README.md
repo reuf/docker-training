@@ -1,0 +1,1 @@
+This contains all the projects as well as the relevant docker files and configurations used in all of the projects covered in this course: https://codewithmosh.com/p/the-ultimate-docker-course together with the history of all the terminal commands.
